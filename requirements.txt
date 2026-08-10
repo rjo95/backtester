@@ -2,4 +2,4 @@ streamlit
 pandas
 numpy<2.0
 plotly
-pandas-ta
+git+https://github.com/twopirllc/pandas-ta.git
