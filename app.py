@@ -14,9 +14,9 @@ import pandas as pd
 # Zorg dat de werkmap correct staat
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 #%%
-from data_import import df_btc
-import backtest_engine as backtest
-from backtest_statistics import calculate_summary_stats, calculate_trade_log
+from src.data_import import df_btc
+from src import backtest_engine as backtest
+from src.backtest_statistics import calculate_summary_stats, calculate_trade_log
 
 # Pagina instellingen
 st.set_page_config(page_title="Crypto Backtester", layout="wide")
