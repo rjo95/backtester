@@ -4,7 +4,7 @@ Hoofdscript voor backtester
 
 import os
 import pandas as pd
-import pandas_ta as ta
+#import pandas_ta as ta
 
 #%% pad naar data
 # Dit is de map waar huidige '.py' in staat
@@ -51,9 +51,9 @@ df_btc = df_btc.rename(
                         )
 
 # toevoegen indicators
-df_btc.ta.sma(length=50, append=True)
-df_btc.ta.sma(length=200, append=True)
-df_btc.ta.rsi(length=14, append=True)
+#df_btc.ta.sma(length=50, append=True)
+#df_btc.ta.sma(length=200, append=True)
+#df_btc.ta.rsi(length=14, append=True)
 
 #%% voorbeeld
 if __name__ == "__main__":
