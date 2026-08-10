@@ -37,8 +37,8 @@ default_config_text = """{
     "max_holding_period": None,      # Maximaal aantal dagen dat een trade open mag staan (of None)
     
     "rules": {
-        "buy": backtest.maak_regel("RSI_14", ">", 60),  # Koopsignaal: koopt als RSI_14 groter is dan 60
-        "sell": backtest.maak_regel("RSI_14", "<", 40), # Verkoopsignaal: verkoopt als RSI_14 kleiner is dan 40
+        "buy": backtest.maak_regel("mvrv_z_score", "<", -0.5),  # Koopsignaal: koopt als RSI_14 groter is dan 60
+        "sell": backtest.maak_regel("mvrv_z_score", ">", 1.5), # Verkoopsignaal: verkoopt als RSI_14 kleiner is dan 40
     }
 }"""
 
