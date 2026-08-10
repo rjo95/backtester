@@ -4,7 +4,6 @@ Hoofdscript voor backtester
 
 import os
 import pandas as pd
-#import pandas_ta as ta
 
 #%% pad naar data
 # Dit is de map waar huidige '.py' in staat
